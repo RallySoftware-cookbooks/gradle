@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-describe 'gradle::default' do
+describe '::default' do
 
   let (:package_name) { 'gradle' }
   let (:owner) { 'root' }
