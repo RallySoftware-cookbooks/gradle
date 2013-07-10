@@ -34,7 +34,7 @@ Recipes
 default
 -------
 
-Installs the gradle library.
+Installs the gradle build tools.
 
 License
 =======
