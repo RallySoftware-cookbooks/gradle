@@ -2,7 +2,7 @@
 
 Description
 ===========
-Installs the gradle library - 1.6 by default.
+Installs the gradle build tools - 1.6 by default.
 
 Requirements
 ============
