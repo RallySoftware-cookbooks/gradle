@@ -5,7 +5,7 @@ describe '::default' do
   let (:package_name) { 'gradle' }
   let (:owner) { 'root' }
   let (:group) { 'root' }
-  let (:path) { '/usr/local/gradle-1.6' }
+  let (:path) { '/usr/local' }
   let (:chef_run) { ChefSpec::ChefRunner.new(:step_into => [:ark]) }
 
   before do
