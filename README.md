@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/RallySoftware-cookbooks/gradle.png?branch=master)](https://travis-ci.org/RallySoftware-cookbooks/gradle)
-
 Description
 ===========
 Installs the gradle build tools - 1.6 by default.
