@@ -1,21 +1,11 @@
-Description
-===========
+## Description
 Installs the gradle build tools - 1.6 by default.
 
-Requirements
-============
+## Requirements
+###Platform
+* CentOS 6.4.  May support other operating systems that support the use of ark.
 
-Platform
---------
-Tested on CentOS 6.4.  May support other operating systems that support the use of ark.
-
-Other
------
-
-Requires the RallySoftware-cookbooks/ark cookbook
-
-Attributes
-==========
+## Attributes
 See `attributes/default.rb` for default values
 
 * `node['gradle']['version']` - version of gradle to install (1.6)
@@ -26,16 +16,11 @@ See `attributes/default.rb` for default values
 * `node['gradle']['group']`  - which group the directory should belong to
 * `node['gradle']['mode']`  - the permissions to set the installation directory to
 
-Recipes
-=======
-
-default
--------
-
+## Recipes
+### default
 Installs the gradle build tools.
 
-License
-=======
+## License
 Copyright (c) Rally Software Development Corp. 2013
 
 Distributed under the MIT License.
