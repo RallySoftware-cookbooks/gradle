@@ -27,12 +27,12 @@
 include_recipe 'ark'
 
 ark 'gradle' do
-  url node['gradle']['source_url']
-  version node['gradle']['version']
-  path node['gradle']['path']
-  owner node['gradle']['owner']
-  group node['gradle']['group']
-  mode node['gradle']['mode']
+  url node[:gradle][:source_url]
+  version node[:gradle][:version]
+  path node[:gradle][:path]
+  owner node[:gradle][:owner]
+  group node[:gradle][:group]
+  mode node[:gradle][:mode]
   append_env_path true
   action :put
 end
