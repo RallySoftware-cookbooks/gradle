@@ -8,9 +8,9 @@ describe file('/usr/local/gradle') do
 end
 
 describe command('/usr/local/gradle/bin/gradle') do
-  it { should return_exit_status 0 }
+  its(:exit_status) { should eq 0 }
 end
 
 describe command('/usr/local/gradle/bin/gradle --version') do
-  it { should return_stdout /Gradle/ }
+  its(:stdout) { should match /Gradle/ }
 end
